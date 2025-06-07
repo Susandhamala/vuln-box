@@ -1,0 +1,28 @@
+body {
+  background: #000;
+  color: #00ff00;
+  font-family: monospace;
+  margin: 0; padding: 0;
+}
+h1, h2, h3, a {
+  color: #00ffff;
+}
+input, textarea, button {
+  background: #111;
+  color: #0f0;
+  border: 1px solid #0f0;
+}
+pre.flag {
+  background: #111;
+  color: #0f0;
+  padding: 10px;
+  border-left: 4px solid #0f0;
+}
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid #0f0;
+  white-space: nowrap;
+  animation: typing 3s steps(40, end), blink .75s step-end infinite;
+}
+@keyframes typing { from { width: 0 } to { width: 100% } }
+@keyframes blink { 50% { border-color: transparent } }
